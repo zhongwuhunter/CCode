@@ -10,7 +10,7 @@
 
 LinkList createListF(int count){
     LinkList result;
-    LinkList head
+    LinkList head;
     for (int i=0; i<count; i++) {
         
     }
