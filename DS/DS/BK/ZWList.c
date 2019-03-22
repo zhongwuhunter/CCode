@@ -8,6 +8,8 @@
 
 #include "ZWList.h"
 
+/*
+
 LinkList createListF(int count){
     LinkList result;
     LinkList head;
@@ -20,7 +22,7 @@ LinkList createListF(int count){
 
 
 
-
+*/
 
 
 

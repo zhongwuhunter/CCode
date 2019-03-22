@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1930B7A722157BAB003F7323 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1930B7A622157BAB003F7323 /* main.c */; };
 		1930B7AF22157E23003F7323 /* ZWList.c in Sources */ = {isa = PBXBuildFile; fileRef = 1930B7AE22157E23003F7323 /* ZWList.c */; };
+		199902EC224398C700D96E2D /* LTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 199902EB224398C700D96E2D /* LTable.c */; };
+		19E8FAD4222F629B00815551 /* ZWStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E8FAD3222F629B00815551 /* ZWStack.c */; };
+		19E8FAD7222F661100815551 /* ZWQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E8FAD6222F661100815551 /* ZWQueue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		1930B7A622157BAB003F7323 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		1930B7AD22157E0A003F7323 /* ZWList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWList.h; sourceTree = "<group>"; };
 		1930B7AE22157E23003F7323 /* ZWList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ZWList.c; sourceTree = "<group>"; };
+		199902EA224398C700D96E2D /* LTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTable.h; sourceTree = "<group>"; };
+		199902EB224398C700D96E2D /* LTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LTable.c; sourceTree = "<group>"; };
+		19E8FAD2222F628D00815551 /* ZWStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWStack.h; sourceTree = "<group>"; };
+		19E8FAD3222F629B00815551 /* ZWStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ZWStack.c; sourceTree = "<group>"; };
+		19E8FAD5222F661100815551 /* ZWQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWQueue.h; sourceTree = "<group>"; };
+		19E8FAD6222F661100815551 /* ZWQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ZWQueue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +69,41 @@
 		1930B7A522157BAB003F7323 /* DS */ = {
 			isa = PBXGroup;
 			children = (
-				1930B7A622157BAB003F7323 /* main.c */,
-				1930B7AD22157E0A003F7323 /* ZWList.h */,
-				1930B7AE22157E23003F7323 /* ZWList.c */,
+				199902E82243987000D96E2D /* WK */,
+				199902E72243986600D96E2D /* BK */,
 			);
 			path = DS;
+			sourceTree = "<group>";
+		};
+		199902E72243986600D96E2D /* BK */ = {
+			isa = PBXGroup;
+			children = (
+				1930B7AD22157E0A003F7323 /* ZWList.h */,
+				1930B7AE22157E23003F7323 /* ZWList.c */,
+				19E8FAD2222F628D00815551 /* ZWStack.h */,
+				19E8FAD3222F629B00815551 /* ZWStack.c */,
+				19E8FAD5222F661100815551 /* ZWQueue.h */,
+				19E8FAD6222F661100815551 /* ZWQueue.c */,
+			);
+			path = BK;
+			sourceTree = "<group>";
+		};
+		199902E82243987000D96E2D /* WK */ = {
+			isa = PBXGroup;
+			children = (
+				1930B7A622157BAB003F7323 /* main.c */,
+				199902E92243987900D96E2D /* LTable */,
+			);
+			path = WK;
+			sourceTree = "<group>";
+		};
+		199902E92243987900D96E2D /* LTable */ = {
+			isa = PBXGroup;
+			children = (
+				199902EA224398C700D96E2D /* LTable.h */,
+				199902EB224398C700D96E2D /* LTable.c */,
+			);
+			path = LTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E8FAD7222F661100815551 /* ZWQueue.c in Sources */,
+				19E8FAD4222F629B00815551 /* ZWStack.c in Sources */,
+				199902EC224398C700D96E2D /* LTable.c in Sources */,
 				1930B7AF22157E23003F7323 /* ZWList.c in Sources */,
 				1930B7A722157BAB003F7323 /* main.c in Sources */,
 			);

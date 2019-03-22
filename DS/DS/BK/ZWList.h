@@ -14,6 +14,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
+/*
+ 
 typedef int DataType;
 
 typedef struct node{
@@ -25,5 +29,7 @@ typedef struct node{
 typedef ListNode *LinkList;
 
 LinkList createListF(int count);
+ 
+*/
 
 #endif /* ZWList_h */

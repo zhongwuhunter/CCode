@@ -7,26 +7,20 @@
 //
 
 #include <stdio.h>
-#include "ZWList.h"
+
+#include "LTable.h"
 
 void test(void){
-    
-    int a[] = {1, 2, 3, 4, 5};
-    int i = 0;
-    a[i]++;
-    a[i]++;
-    printf("%d %d\n", i, a[5]);
-    a[i++];
-    printf("%d %d\n", i, a[i]);
-    
+    testTable();
 }
 
 
 int main(int argc, const char * argv[]) {
     
     test();
-    return 0;
+    
 }
+
 
 
 
